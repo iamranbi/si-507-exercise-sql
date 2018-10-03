@@ -1,1 +1,1 @@
-# si-507-exercise-sql
+# si507-exercise-sql
