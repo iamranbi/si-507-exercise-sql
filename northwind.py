@@ -86,3 +86,5 @@ print('Customer ID, Order Date, Previous Order Date, Days Passed')
 for row in cur:
     da=datetime.strptime(row[1],date_format)-datetime.strptime(row[2],date_format)
     print(row[0]+', '+row[1]+', '+row[2]+', '+str(da.days))
+
+conn.close()
