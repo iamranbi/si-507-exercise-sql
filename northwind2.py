@@ -1,3 +1,7 @@
+#two user inputs: 1.first character of ShipCity; 2.number of characters in employee's first names
+#show the number of orders made based on the inputs
+#sample command:$python3 northwind2.py s 5
+
 import sqlite3 as sqlite
 conn=sqlite.connect('Northwind_small.sqlite')
 cur=conn.cursor()
